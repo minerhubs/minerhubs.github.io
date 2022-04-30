@@ -54,6 +54,57 @@
 
 </head>
 
+<video autoplay muted loop id="myVideo">
+  <source src="assets/img/kong.mp4" type="video/mp4">
+</video>
+
+<style>
+
+.icon-connect,
+.icon-copy,
+.icon-copy-green {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(assets/img/sprite.svg);
+}
+
+  .icon-connect {
+    background-position: -504px;
+    -webkit-animation: rotating 0.5s infinite;
+    animation: rotating 0.5s infinite;
+}
+
+@-webkit-keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(180deg);
+    }
+}
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(180deg);
+    }}
+
+
+
+    
+.btn{
+  width:200px;
+  }
+
+  
+</style>
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -123,7 +174,7 @@
                 </div>
             </div>
             </div>
-              <span id="wallet-connection-heading">Wallet Connection</span><span class="dot"></span>
+              <span id="wallet-connection-heading" style="color:#ffffff; ">Wallet Connection</span><span class="dot"></span>
           </div>
           <div class="row stats-row-container " data-aos="zoom-in">
             <div class="col-md-6" >
@@ -216,7 +267,7 @@
                 <i class="ri-alert-line" style="color: #f3ba2c; font-size: 10px;"></i>
                 <span style="font-weight: 100; font-size: 14px;">
               <strong style="color: #f3ba2c;">Important Note!</strong>  
-			<p>
+			<p  style="color: #ffffff;">
 			In Addition, to further encourage the community to compound (grow more banana barrels) , there will be an additional 2.5% bonus for each compound action that the user will do, which can stack up to 25% for 10 consecutive times / 5 days. By doing so, this will ensure the long term potential profit of every investor. 
 		    <p><p>
                 </span>
