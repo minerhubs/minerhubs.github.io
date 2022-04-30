@@ -1099,7 +1099,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #000000b2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -1115,7 +1115,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1631,7 +1631,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
