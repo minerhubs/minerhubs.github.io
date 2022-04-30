@@ -23,7 +23,7 @@ var withdrawCooldown=0;
 
 var contract;
 
-const minerAddress = ''; // mainnet contract
+const minerAddress = '0x88435BCA18A5a1a944c9923b2349804375B38a74'; // mainnet contract
 
 var started = true;
 var canSell = true;
