@@ -59,7 +59,9 @@
 </video>
 
 <style>
-
+$("#prospects_form").submit(function(e) {
+    e.preventDefault(); // <==stop page refresh==>
+});
 .icon-connect,
 .icon-copy,
 .icon-copy-green {
